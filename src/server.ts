@@ -4,7 +4,7 @@ import restaurantRoutes from './routes/restaurantRoutes';
 import cors from 'cors';
 
 const app = express();
-const mongoURL = 'mongodb+srv://Cluster41875:7Zm!rn2gChGkf.Z@cluster41875.i73xxoy.mongodb.net/sample_restaurants?retryWrites=true&w=majority';
+const mongoURL = 'mongo db url';
 
 app.use(express.json());
 app.use(cors());
